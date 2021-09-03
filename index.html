@@ -8,19 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Besley:ital@1&family=Hina+Mincho&family=Playfair+Display:ital@1&family=STIX+Two+Math&display=swap" rel="stylesheet">
-<title>ชื่อร้าน</title>
+<title>beautblink</title>
 <style>
  * {
     transition: 1s;
+    scroll-behavior: smooth;
   }
 html {
+  scroll-behavior: smooth;
   font-family: 'Playfair Display', serif;
   height: 100%;
   overflow: hidden;
   border-left: 2vw #000 solid;
   border-right: 2vw #000 solid;
-  
-
 }
 
 body {
@@ -61,12 +61,16 @@ body {
 .slide, .slide:before {
   background: 50% 50% / cover;  
 }
-#intro {
+#intro1{
+  background-color: #000;
+  z-index:2;
+}
+#intro2{
   background-color: #000;
   z-index:2;
 }
 #slide1:before {
-  background-image: url("img/bg2.jpg");
+  background-image: url("img/IMG_5415.png");
   transform: translateZ(-1px) scale(2);
 
 }
@@ -75,15 +79,45 @@ body {
   z-index:2;
 }
 #slide3:before {  
-  background-image: url("img/bg3.jpg");
-
+  background-image: url("img/IMG_5395-2.jpg");
   transform: translateZ(-1px) scale(2);
 }
 #slide4 {
   background-color: #000;
   z-index:2;
 }
-
+#slide5:before {  
+  background-image: url("img/IMG_5405.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+#slide6{
+  background-color: #000;
+  z-index:2;
+}
+#slide7:before {  
+  background-image: url("img/13.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+#slide8{
+  background-color: #000;
+  z-index:2;
+}
+#slide9:before {  
+  background-image: url("img/IMG_5419.png");
+  transform: translateZ(-1px) scale(2);
+}
+#slide10{
+  background-color: #000;
+  z-index:2;
+}
+#slide11:before {  
+  background-image: url("img/IMG_5394-2.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+#slide12{
+  background-color: #000;
+  z-index:2;
+}
 section {
   color: #fff;
   text-align: center;
@@ -104,12 +138,17 @@ h4 {
 }
 .text1{
   position: absolute;
-  font-size: 15vw;
   color: #FF99CC;
   letter-spacing: 2vw;
-  top: 30%;
+  top: 35%;
   left: 50%;
+  font-size: 12vw;
   transform: translate(-50%, -50%);
+}
+.logo:hover {
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
 /* Pattern styles */
@@ -168,6 +207,17 @@ nav ul li a{
   text-decoration: underline 1px;
 }
 
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
+
 
 
 
@@ -175,17 +225,15 @@ nav ul li a{
 
 
 </head>
-<div class="wrapper">
-        
+<div class="wrapper">  
   <nav>
           <div class="menu">
-              <h4 style="color: #fff; text-align: center;">ชื่อร้าน</h4>
+              <h4 style="color: #fff; text-align: center;" class="logo"> BEAUTBLINK</h4>
               <ul >
-                  <li><a href="#one"  class="btn"> BAG </a> </li>
 
-                  <li> <a href="#two" class="btn"> COSMETICS </a></li>
+                  <li> <a href="#intro1" class="btn" > COSMETICS </a></li>
 
-                  <li> <a href="#three" class="btn"> PERFUMR </a></li>                  
+                  <li> <a href="#intro2" class="btn"> PERFUMR </a></li>                  
               </ul>
 
           </div>
@@ -194,11 +242,12 @@ nav ul li a{
 
 <body style="perspective: 1px;">
 
-  
-  <div id="intro" class="slide">
-      <h1 class="text1">Bag</h1>
+  <div id="intro1" class="slide" >
+      <h1 class="text1" >COSMETICS</h1>
     
   </div>
+  </a>
+
   <div id="slide1" class="slide">   
   </div>
 
@@ -213,7 +262,10 @@ nav ul li a{
 
       <div class="right-half">
         <article>
-          <img src="img/1.jpg" style="width: 30vw; height: 25vw; position: relative;">
+          <img src="img/11.JPG" 
+          onclick="this.src='img/22.JPG';"
+          ondblclick="this.src='img/11.JPG';"
+          style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
         </article>
       </div>
     </section>
@@ -234,11 +286,113 @@ nav ul li a{
 
       <div class="right-half">
         <article>
-          <img src="img/1.jpg" style="width: 30vw; height: 25vw; position: relative;">
+          <img src="img/IMG_5424.JPG" 
+          onclick="this.src='img/IMG_5423.JPG';"
+          ondblclick="this.src='img/IMG_5424.JPG';"
+          style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
         </article>
       </div>
     </section>
   </div>
+
+  <div id="slide5" class="slide">
+  </div>
+
+  <div id="slide6" class="slide">
+    <section class="container">
+      <div class="left-half">
+        <article>
+        <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+        <p style="color:#fff;">รายละเอียดของ</p>
+        </article>
+      </div>
+
+      <div class="right-half">
+        <article>
+          <img src="img/IMG_5412.JPG" 
+          onclick="this.src='img/IMG_5413.JPG';"
+          ondblclick="this.src='img/IMG_5412.JPG';"
+          style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <div id="slide7" class="slide">
+  </div>
+
+  <div id="slide8" class="slide">
+    <section class="container">
+      <div class="left-half">
+        <article>
+        <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+        <p style="color:#fff;">รายละเอียดของ</p>
+        </article>
+      </div>
+
+      <div class="right-half">
+        <article>
+          <img src="img/IMG_5427.png" 
+          onclick="this.src='img/IMG_5426.png';"
+          ondblclick="this.src='img/IMG_5427.png';"
+          style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <a name="two">
+    <div id="intro2" class="slide">
+        <h1 class="text1" >PERFUMR</h1>
+      
+    </div>
+    </a>
+
+    <div id="slide9" class="slide">
+    </div>
+  
+    <div id="slide10" class="slide">
+      <section class="container">
+        <div class="left-half">
+          <article>
+          <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+          <p style="color:#fff;">รายละเอียดของ</p>
+          </article>
+        </div>
+  
+        <div class="right-half">
+          <article>
+            <img src="img/IMG_5409.png" 
+            onclick="this.src='img/IMG_5410.jpg';"
+            ondblclick="this.src='img/IMG_5409.png';"
+            style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <div id="slide11" class="slide">
+    </div>
+  
+    <div id="slide12" class="slide">
+      <section class="container">
+        <div class="left-half">
+          <article>
+          <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+          <p style="color:#fff;">รายละเอียดของ</p>
+          </article>
+        </div>
+  
+        <div class="right-half">
+          <article>
+            <img src="img/14.png" 
+            onclick="this.src='img/IMG_5422.jpg';"
+            ondblclick="this.src='img/14.png';"
+            style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+          </article>
+        </div>
+      </section>
+    </div>
 
 </body>
 </html>
