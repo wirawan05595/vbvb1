@@ -9,25 +9,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Besley:ital@1&family=Hina+Mincho&family=Playfair+Display:ital@1&family=STIX+Two+Math&display=swap" rel="stylesheet">
-<title>beautblink</title>
+
+
+  
+    
+    <title>beautblink</title>
 
 </head>
-<div class="wrapper">  
-  <nav>
-          <div class="menu">
-              <h4 style="color: #fff; text-align: center;" class="logo"> BEAUTBLINK</h4>
-              <ul >
 
-                  <li> <a href="#intro1" class="btn" > COSMETICS </a></li>
+<body data-spy="scroll" data-target="#navbar-example">
+  <div class="wrapper" >
+    <nav style="background-color: #000;">
+              <div class="menu">
+                  <h4 style="color: #fff; text-align: center;" class="logo"> BEAUTBLINK</h4>
+                  <ul >
+    
+                      <li> <a href="#intro1" class="btn" > COSMETICS </a></li>
+    
+                      <li> <a href="#intro2" class="btn"> PERFUMR </a></li>                  
+                  </ul>
+              </div>
+      </nav>
+  </div>
 
-                  <li> <a href="#intro2" class="btn"> PERFUMR </a></li>                  
-              </ul>
 
-          </div>
-  </nav>
-</div>
 
-<body style="perspective: 1px;">
+ <div id="lyl">
 
   <div id="intro1" class="slide" >
       <h1 class="text1" >COSMETICS</h1>
@@ -42,7 +49,7 @@
     <section class="container">
       <div class="left-half">
         <article>
-        <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+        <h4 style="color:#FF99CC;" class="productname">ชื่อสินค้า</h4>
         <p style="color:#fff;">รายละเอียดของ</p>
         </article>
       </div>
@@ -52,7 +59,7 @@
           <img src="img/11.JPG" 
           onclick="this.src='img/22.JPG';"
           ondblclick="this.src='img/11.JPG';"
-          style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+           class="img_product">
         </article>
       </div>
     </section>
@@ -66,7 +73,7 @@
     <section class="container">
       <div class="left-half">
         <article>
-        <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+        <h4 style="color:#FF99CC;" class="productname">ชื่อสินค้า</h4>
         <p style="color:#fff;">รายละเอียดของ</p>
         </article>
       </div>
@@ -76,7 +83,7 @@
           <img src="img/IMG_5424.JPG" 
           onclick="this.src='img/IMG_5423.JPG';"
           ondblclick="this.src='img/IMG_5424.JPG';"
-          style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+          class="img_product">
         </article>
       </div>
     </section>
@@ -89,7 +96,7 @@
     <section class="container">
       <div class="left-half">
         <article>
-        <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+        <h4 style="color:#FF99CC;" class="productname">ชื่อสินค้า</h4>
         <p style="color:#fff;">รายละเอียดของ</p>
         </article>
       </div>
@@ -99,7 +106,7 @@
           <img src="img/IMG_5412.JPG" 
           onclick="this.src='img/IMG_5413.JPG';"
           ondblclick="this.src='img/IMG_5412.JPG';"
-          style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+          class="img_product">
         </article>
       </div>
     </section>
@@ -112,7 +119,7 @@
     <section class="container">
       <div class="left-half">
         <article>
-        <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+        <h4 style="color:#FF99CC;" class="productname">ชื่อสินค้า</h4>
         <p style="color:#fff;">รายละเอียดของ</p>
         </article>
       </div>
@@ -122,7 +129,7 @@
           <img src="img/IMG_5427.png" 
           onclick="this.src='img/IMG_5426.png';"
           ondblclick="this.src='img/IMG_5427.png';"
-          style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+          class="img_product">
         </article>
       </div>
     </section>
@@ -142,7 +149,7 @@
       <section class="container">
         <div class="left-half">
           <article>
-          <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+          <h4 style="color:#FF99CC;" class="productname">ชื่อสินค้า</h4>
           <p style="color:#fff;">รายละเอียดของ</p>
           </article>
         </div>
@@ -152,7 +159,7 @@
             <img src="img/IMG_5409.png" 
             onclick="this.src='img/IMG_5410.jpg';"
             ondblclick="this.src='img/IMG_5409.png';"
-            style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+            class="img_product">
           </article>
         </div>
       </section>
@@ -165,7 +172,7 @@
       <section class="container">
         <div class="left-half">
           <article>
-          <h4 style="color:#FF99CC;">ชื่อสินค้า</h4>
+          <h4 style="color:#FF99CC;" class="productname">ชื่อสินค้า</h4>
           <p style="color:#fff;">รายละเอียดของ</p>
           </article>
         </div>
@@ -175,11 +182,14 @@
             <img src="img/14.png" 
             onclick="this.src='img/IMG_5422.jpg';"
             ondblclick="this.src='img/14.png';"
-            style="width: 30vw; height: 30vw; position: relative; border-radius: 25%;">
+            class="img_product">
           </article>
         </div>
       </section>
     </div>
+  </div>
+
+
 
 </body>
 </html>
