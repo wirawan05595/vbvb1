@@ -613,8 +613,25 @@ nav ul li a{
   .right-half {
     top: 200vw;
 }
+    
+}
 
 
+@media all and (max-width: 180px){
 
+
+  .right-half {
+    top: 250vw;
+}
+    
+}
+
+
+@media all and (max-width: 150px){
+
+
+  .right-half {
+    top: 300vw;
+}
     
 }
