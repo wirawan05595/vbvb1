@@ -441,7 +441,7 @@ nav ul li a{
 @media all and (max-width: 361px){
 
   .right-half {
-    top: 100%;
+    top: 55%;
   }
   .buttons-container {
     top: 19vw;
@@ -467,7 +467,12 @@ nav ul li a{
     font-size: 6vw;
 }
   .right-half {
-    top: 100%;
+  top: 65%;
+}
+
+.social_txt {
+  top: 70%;
+  font-size: 4vw;
 }
 
 
