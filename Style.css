@@ -27,7 +27,6 @@ body {
     width: 100%;
     overflow-y: scroll;
     border-left: 2vw #000 solid;
-    border-right: 2vw #000 solid;
     
 }
 .h1{
@@ -37,6 +36,20 @@ body {
   /* right: 50%; */
   color: black;
 }
+
+.price{
+    font-size: 2vw;
+    color: #FF99CC;
+    position: relative;
+    left: 10vw;
+}
+.price2{
+  font-size: 2vw;
+  color: #FF99CC;
+  position: relative;
+  left: 10vw;
+}
+
 .slide {
   position: relative;
   padding: 25% 10%;
@@ -295,8 +308,12 @@ nav ul li a{
     .productname{
         font-size: 3vw;
     }
-    
-
+    .price {
+      font-size: 3vw;
+  }
+  .price2{
+    font-size: 3vw;
+}
 }
 
 @media all and (max-width: 801px){
@@ -343,14 +360,22 @@ nav ul li a{
       height: 40vw;
   }
   .buttons-container {
-    top: 5vw;
-    top: 10vw;
+    top: 7vw;
   }
   .social_txt {
     top: 45vw;
     font-size: 3vw;
     left: 47vw;
   }
+  .price {
+    font-size: 3.5vw;
+    left: 15vw;
+ }
+ .price2 {
+  font-size: 3vw;
+  top: -2vw;
+  left: 15vw;
+}
 
 }
 
@@ -364,6 +389,11 @@ nav ul li a{
     right: 0px;
     width: 100%;
 }
+.price2 {
+  font-size: 3.5vw;
+  top: 0;
+  left: 15vw;
+}
 
   
 
@@ -374,7 +404,7 @@ nav ul li a{
 
   
   .right-half {
-    top: 55%;
+    top: 60%;
 }
 
   
@@ -394,7 +424,7 @@ nav ul li a{
     }
     .right-half {
         position: fixed;
-        top: 90vw;
+        top: 101vw;
         right: 0px;
         width: 100%;
     }
@@ -404,29 +434,23 @@ nav ul li a{
     }
 
     .social_txt {
-      top: 55vw;
+      top: 50vw;
       font-size: 4vw;
       left: 47vw;
   }
   .buttons-container {
-    top: 5vw;
-    top: 20vw;
+    top: 13vw;
+}
+.price{
+  font-size: 4vw;
+}
+.price2 {
+  font-size: 4vw;
 }
   
 
 }
 
-@media all and (max-width: 412px){
-
-  .right-half {
-    top: 70%;
-}
-.social_txt {
-  top: 65vw;
-}
-
-
-}
 
 @media all and (max-width: 376px){
 
@@ -444,12 +468,21 @@ nav ul li a{
     top: 65%;
   }
   .buttons-container {
-    top: 19vw;
+    top: 15vw;
   }
 
   .social_txt {
     top: 70%;
     font-size: 4vw;
+}
+
+.price{
+  font-size: 4.5vw;
+  left: 12vw;
+}
+.price2 {
+  font-size: 4.5vw;
+  left: 12vw;
 }
 
  
@@ -474,6 +507,13 @@ nav ul li a{
 .social_txt {
     top: 70%;
     font-size: 4vw;
+}
+
+.price{
+  font-size: 5vw;
+}
+.price2 {
+  font-size: 5vw;
 }
 
 
@@ -502,7 +542,7 @@ nav ul li a{
         height: 45vw;
     }
     .social_txt {
-      top: 65vw;
+      top: 65%;
       font-size: 4vw;
       left: 50vw;
   }
@@ -510,92 +550,4 @@ nav ul li a{
     
 }
 
-
-@media all and (max-width: 260px){
-
-  .left-half {
-    position: fixed;
-    top: 11%;
-    left: 17%;
-    width: 60%;
-    font-size: 2vw;
-  }
-  .right-half {
-    top: 150vw;
-}
-
-    .productname{
-      font-size: 5vw;
-    }
-
-    .right-half img{
-        width: 50vw;
-        height: 45vw;
-    }
-    .social_txt {
-      top: 65vw;
-      font-size: 4vw;
-      left: 50vw;
-  }
-
-    
-}
-
-@media all and (max-width: 231px){
-
-  .left-half {
-    position: fixed;
-    top: 11%;
-    left: 17%;
-    width: 60%;
-    font-size: 2vw;
-  }
-  .right-half {
-    top: 190vw;
-}
-
-    .productname{
-      font-size: 5vw;
-    }
-
-    .right-half img{
-        width: 50vw;
-        height: 45vw;
-    }
-    .social_txt {
-      top: 65vw;
-      font-size: 4vw;
-      left: 50vw;
-  }
-
-    
-}
-
-@media all and (max-width: 200px){
-
-
-  .right-half {
-    top: 200vw;
-}
-    
-}
-
-
-@media all and (max-width: 180px){
-
-
-  .right-half {
-    top: 250vw;
-}
-    
-}
-
-
-@media all and (max-width: 150px){
-
-
-  .right-half {
-    top: 300vw;
-}
-}
    
