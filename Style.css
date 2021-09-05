@@ -577,6 +577,36 @@ nav ul li a{
     
 }
 
+@media all and (max-width: 231px){
+
+  .left-half {
+    position: fixed;
+    top: 11%;
+    left: 17%;
+    width: 60%;
+    font-size: 2vw;
+  }
+  .right-half {
+    top: 190vw;
+}
+
+    .productname{
+      font-size: 5vw;
+    }
+
+    .right-half img{
+        width: 50vw;
+        height: 45vw;
+    }
+    .social_txt {
+      top: 65vw;
+      font-size: 4vw;
+      left: 50vw;
+  }
+
+    
+}
+
 @media all and (max-width: 200px){
 
 
