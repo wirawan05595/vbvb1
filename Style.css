@@ -394,7 +394,7 @@ nav ul li a{
     }
     .right-half {
         position: fixed;
-        top: 100%;
+        top: 90vw;
         right: 0px;
         width: 100%;
     }
@@ -403,10 +403,6 @@ nav ul li a{
       font-size: 4vw;
     }
 
-    .right-half img{
-        width: 40vw;
-        height: 40vw;
-    }
     .social_txt {
       top: 55vw;
       font-size: 4vw;
@@ -423,7 +419,7 @@ nav ul li a{
 @media all and (max-width: 412px){
 
   .right-half {
-    top: 70%;
+    top: 100%;
 }
 .social_txt {
   top: 65vw;
@@ -435,7 +431,7 @@ nav ul li a{
 @media all and (max-width: 376px){
 
   .right-half {
-    top: 110vw;
+    top: 100%;
 }
  
 }
