@@ -576,3 +576,15 @@ nav ul li a{
 
     
 }
+
+@media all and (max-width: 200px){
+
+
+  .right-half {
+    top: 200vw;
+}
+
+
+
+    
+}
