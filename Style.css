@@ -360,7 +360,7 @@ nav ul li a{
   
   .right-half {
     position: fixed;
-    top: 80vw;
+    top: 65%;
     right: 0px;
     width: 100%;
 }
@@ -372,7 +372,7 @@ nav ul li a{
 @media all and (max-width: 511px){
 
   
-  right-half {
+  .right-half {
     top: 80vw;
 }
 
