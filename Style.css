@@ -361,6 +361,7 @@ nav ul li a{
     top: 80vw;
 
 }
+}
 
 @media all and (max-width: 541px){
 
@@ -641,5 +642,5 @@ nav ul li a{
   .right-half {
     top: 300vw;
 }
-    
 }
+   
