@@ -329,7 +329,7 @@ nav ul li a{
   }
   .right-half {
       position: fixed;
-      top: 70vw;
+      top: 80vw;
       right: 0px;
       width: 100%;
   }
@@ -355,8 +355,6 @@ nav ul li a{
 }
 
 @media all and (max-width: 580px){
-
-  
   .right-half {
     top: 80vw;
   }
