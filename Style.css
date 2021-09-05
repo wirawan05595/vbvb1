@@ -441,16 +441,17 @@ nav ul li a{
 @media all and (max-width: 361px){
 
   .right-half {
-    top: 55%;
+    top: 65%;
   }
   .buttons-container {
     top: 19vw;
   }
 
   .social_txt {
-    top: 65vw;
-  font-size: 4vw;
-  }
+    top: 70%;
+    font-size: 4vw;
+}
+
  
 }
 
@@ -467,12 +468,12 @@ nav ul li a{
     font-size: 6vw;
 }
   .right-half {
-  top: 100%;
+  top: 65%;
 }
 
 .social_txt {
-  top: 70%;
-  font-size: 4vw;
+    top: 70%;
+    font-size: 4vw;
 }
 
 
