@@ -379,6 +379,17 @@ nav ul li a{
 
 }
 
+@media all and (max-width: 505px){
+
+  
+  .right-half {
+    top: 80vw;
+}
+
+  
+
+}
+
 
 
 
@@ -505,7 +516,7 @@ nav ul li a{
 }
 
 
-@media all and (max-width: 285px){
+@media all and (max-width: 286px){
 
   .left-half {
     position: fixed;
@@ -515,8 +526,8 @@ nav ul li a{
     font-size: 2vw;
   }
     .right-half {
-      top: 60%;
-    }
+      top: 130vw;
+  }
 
     .productname{
       font-size: 5vw;
