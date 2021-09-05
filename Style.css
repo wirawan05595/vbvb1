@@ -369,16 +369,6 @@ nav ul li a{
 
 }
 
-@media all and (max-width: 511px){
-
-  
-  .right-half {
-    top: 80vw;
-}
-
-  
-
-}
 
 @media all and (max-width: 505px){
 
@@ -398,7 +388,6 @@ nav ul li a{
 
     .left-half {
         position: fixed;
-        top: 15vw;
         left: 17%;
         width: 60%;
         font-size: 3vw;
@@ -427,42 +416,14 @@ nav ul li a{
     top: 5vw;
     top: 20vw;
 }
-
-   
-
-}
-
-
-@media all and (max-width: 415px){
-
-  .left-half {
-      top: 10%;
-  }
-
-  .productname{
-    font-size: 4vw;
-  }
-  .right-half {
-    top: 100vw;
-}
-.social_txt {
-  top: 65vw;
-  font-size: 4vw;
-  left: 47vw;
-}
-  .right-half img{
-      width: 50vw;
-      height: 50vw;
-  }
-
- 
+  
 
 }
 
 @media all and (max-width: 412px){
 
   .right-half {
-    top: 100vw;
+    top: 70%;
 }
 .social_txt {
   top: 65vw;
