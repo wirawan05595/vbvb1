@@ -394,7 +394,7 @@ nav ul li a{
     }
     .right-half {
         position: fixed;
-        top: 90vw;
+        top: 100%;
         right: 0px;
         width: 100%;
     }
