@@ -354,6 +354,14 @@ nav ul li a{
 
 }
 
+@media all and (max-width: 570px){
+
+  
+  .right-half {
+    top: 80vw;
+
+}
+
 @media all and (max-width: 541px){
 
   
