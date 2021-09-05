@@ -132,6 +132,21 @@ h4 {
   font-size: 1.75rem;
   
 }
+
+.social_txt{
+  font-size: 1.5vw;
+  position: absolute;
+  left: 25%;
+  top: 15vw;
+}
+.social_txt2{
+  font-size: 1.5vw;
+  position: absolute;
+  left: 25%;
+  top: 20vw;
+}
+
+
 .text1{
   position: absolute;
   color: #FF99CC;
@@ -152,16 +167,23 @@ h4 {
  position: absolute;
   top: 50%;
   right: 1%;
-  display: table;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
 .left-half {
   position: absolute;
   left: 0px;
+  top: -10vw;
   width: 50%;
 }
 
+.left-half p{
+  position: absolute;
+  left: 15%;
+  text-align: left;
+}
 .right-half {
   position: absolute;
   right: 0px;
@@ -219,9 +241,72 @@ nav ul li a{
 }
 
 
-  
 
-   
+.buttons-container {
+  display: flex;
+  position: absolute;
+  top: 20vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  left: 30%;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  margin-bottom: 1em;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.buttons-container2 {
+  display: flex;
+  position: absolute;
+  top: 25vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  left: 30%;
+  flex-wrap: wrap;
+}
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  margin-bottom: 1em;
+}
+.button2:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.facebook:hover {
+  background: #3b5998;
+}
+
+.instagram:hover {
+  background: linear-gradient(135deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
 
 
 
@@ -236,110 +321,397 @@ nav ul li a{
   }
 }
 
-@media all and (max-width: 1500px){
+@media all and (max-width: 1200px){
+  .buttons-container {
+    top: 25vw;
+    width: 30%;
+  }
+  .buttons-container2{
+    top: 30vw;
+    width: 30%;
+  }
+  .social_txt{
+    top: 20vw;
+  }
+  .social_txt2{
+    top: 25vw;
+  }
 
-    .left-half {
-        position: fixed;
-        top: 15%;
-        left: 0%;
-        width: 100%;
+}
+
+@media all and (max-width: 1100px){
+  .buttons-container {
+    top: 30vw;
+    width: 30%;
+  }
+  .buttons-container2{
+    top: 34vw;
+    width: 30%;
+  }
+  .social_txt{
+    top: 25vw;
+  }
+  .social_txt2{
+    top: 30vw;
+  }
+
+}
+
+@media all and (max-width: 950px){
+  .buttons-container {
+    top: 32vw;
+    width: 30%;
+  }
+  .buttons-container2{
+    top: 34vw;
+    width: 30%;
+  }
+  .social_txt{
+    top: 27vw;
+  }
+  .social_txt2{
+    top: 30vw;
+  }
+
+}
+
+@media all and (max-width: 851px){
+
+  .left-half {
+    top: -20vw;
+
+  }
+    .productname{
         font-size: 3vw;
     }
-    .right-half {
-        position: fixed;
-        top: 70%;
-        right: 0px;
-        width: 100%;
+
+    .buttons-container {
+      top: 35vw;
+      width: 35%;
+    }
+    .buttons-container2{
+      width: 35%;
+      top: 45vw;
     }
 
-    .productname{
-        font-size: 4vw;
+    .social_txt{
+      top: 30vw;
     }
-
-    .right-half img{
-        width: 50vw;
-        height: 50vw;
+    .social_txt2{
+      top: 40vw;
     }
 
 }
 
-@media all and (max-width: 1200px){
+@media all and (max-width: 800px){
+
+  .left-half {
+    top: -20vw;
+
+  }
+    .productname{
+        font-size: 3vw;
+    }
+
+    .buttons-container {
+      top: 40vw;
+      width: 35%;
+    }
+
+    .social_txt{
+      top: 35vw;
+    }
+
+}
+
+@media all and (max-width: 651px){
+
+
+    .buttons-container2{
+      width: 45%;
+      top: 52vw;
+    }
+
+    .buttons-container{
+      width: 45%;
+      top: 44vw;
+    }
+
+    .social_txt{
+      font-size: 2vw;
+      top: 38vw;
+    }
+
+    .social_txt2{
+      top: 45vw;
+      font-size: 2vw;
+    }
+
+}
+
+@media all and (max-width: 600px){
+
+  .left-half {
+      position: fixed;
+      top: 15%;
+      left: 17%;
+      width: 60%;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 2vw;
+  }
+  .right-half {
+      position: fixed;
+      top: 55%;
+      right: 0px;
+      width: 100%;
+  }
+
+  .productname{
+      font-size: 3vw;
+  }
+
+  .right-half img{
+      width: 40vw;
+      height: 40vw;
+  }
+  .buttons-container2{
+    width: 45%;
+    top: 52vw;
+  }
+
+  .buttons-container{
+    width: 50%;
+    top: 80vw;
+    left: 18vw;
+  }
+
+  .buttons-container2{
+    width: 50%;
+    top: 80vw;
+    left: 18vw;
+  }
+  .social_txt {
+    top: 75vw;
+    font-size: 2.5vw;
+    left: 1%;
+}
+
+  .social_txt2 {
+    top: 75vw;
+    font-size: 2.5vw;
+    left: 1%;
+}
+
+
+}
+
+@media all and (max-width: 416px){
 
     .left-half {
         position: fixed;
-        top: 15%;
-        left: 0%;
-        width: 100%;
-        font-size: 4vw;
+        top: 20%;
+        left: 17%;
+        width: 60%;
+        font-size: 2vw;
     }
     .right-half {
         position: fixed;
-        top: 70%;
+        top: 55%;
         right: 0px;
         width: 100%;
     }
 
     .productname{
-        font-size: 7vw;
+      font-size: 3vw;
     }
 
     .right-half img{
-        width: 60vw;
-        height: 60vw;
+        width: 40vw;
+        height: 40vw;
     }
 
+    .buttons-container2 {
+      width: 55%;
+      top: 110vw;
+  }
+
+  .buttons-container{
+    width: 55%;
+    top: 100vw;
+  }
+  .social_txt{
+    top: 90vw;
+    font-size: 3vw;
+    left: 40%;
+   }
+   .social_txt2 {
+    top: 100vw;
+    font-size: 3vw;
+    left: 40%;
+  }
+   
+
 }
+
 
 @media all and (max-width: 415px){
 
-    .left-half {
-        position: fixed;
-        top: 20%;
-        left: 0%;
-        width: 100%;
-        font-size: 4vw;
-    }
-    .right-half {
-        position: fixed;
-        top: 60%;
-        right: 0px;
-        width: 100%;
-    }
+  .left-half {
+      top: 10%;
+  }
+  .right-half {
+      top: 44%;
+  }
 
-    .productname{
-        font-size: 7vw;
-    }
+  .productname{
+    font-size: 4vw;
+  }
 
-    .right-half img{
-        width: 60vw;
-        height: 60vw;
-    }
+  .right-half img{
+      width: 40vw;
+      height: 40vw;
+  }
+
+  .buttons-container2 {
+    width: 55%;
+    top: 110vw;
+}
+
+.buttons-container{
+  width: 55%;
+  top: 110vw;
+}
+.social_txt{
+  top: 100vw;
+  font-size: 3vw;
+  left: 40%;
+ }
+ .social_txt2 {
+  top: 100vw;
+  font-size: 3vw;
+  left: 40%;
+}
+ 
 
 }
 
+@media all and (max-width: 376px){
+
+  .right-half {
+
+      top: 38%;
+
+  }
+ 
+}
+
+
+@media all and (max-width: 361px){
+
+  .right-half {
+      position: fixed;
+      top: 54%;
+      right: 0px;
+      width: 100%;
+  }
+
+  .buttons-container {
+    width: 60%;
+    top: 110vw;
+    left: 15vw;
+}
+.buttons-container2{
+  width: 60%;
+  top: 110vw;
+  left: 15vw;
+}
+.social_txt{
+  top: 100vw;
+  font-size: 3vw;
+  left: 40%;
+ }
+ .social_txt2 {
+  top: 100vw;
+  font-size: 3vw;
+  left: 40%;
+}
+ 
+}
+
+
+
+
+@media all and (max-width: 321px){
+
+  .left-half {
+    top: 10%;
+}
+
+  .right-half {
+      position: fixed;
+      top: 47%;
+      right: 0px;
+      width: 100%;
+  }
+
+  .buttons-container {
+    width: 70%;
+    top: 120vw;
+    left: 14vw;
+}
+.buttons-container2{
+  width: 70%;
+  top: 120vw;
+  left: 14vw;
+}
+.social_txt{
+  top: 105vw;
+ }
+ .social_txt2 {
+  top: 105vw;
+
+}
+
+
 @media all and (max-width: 285px){
 
-    .left-half {
-        position: fixed;
-        top: 20%;
-        left: 0%;
-        width: 100%;
-        font-size: 5vw;
-    }
+  .left-half {
+    position: fixed;
+    top: 11%;
+    left: 17%;
+    width: 60%;
+    font-size: 2vw;
+  }
     .right-half {
-        position: fixed;
-        top: 70%;
-        right: 0px;
-        width: 100%;
+        top: 50%;
     }
 
     .productname{
-        font-size: 10vw;
+      font-size: 5vw;
     }
 
     .right-half img{
-        width: 60vw;
-        height: 60vw;
+        width: 40vw;
+        height: 40vw;
     }
 
+    .buttons-container{
+      width: 75%;
+      top: 170vw;
+      left: 12vw;
+    }
+    .buttons-container2 {
+      width: 75%;
+      top: 170vw;
+      left: 12vw;
+    }
+    .social_txt2 {
+      top: 150vw;
+  }
+  .social_txt{
+    top: 150vw;
+  }
+
+}
 }
